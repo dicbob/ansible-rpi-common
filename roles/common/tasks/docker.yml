@@ -1,0 +1,5 @@
+---
+#Update docker config
+- name: Update docker config
+  copy: src=docker dest=/etc/default/docker owner=root group=root mode="u=rw,g=r,o=r"
+  notify: restart docker

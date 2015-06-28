@@ -1,0 +1,9 @@
+#Working Example
+- hosts: cluster
+  user: pi
+  sudo: true
+  sudo_user: root
+  vars:
+    ansible_path: "{{ lookup('env','ANSIBLE_WORK_DIR') }}"
+  roles:
+  - common
