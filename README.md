@@ -1,7 +1,7 @@
 # ansible-rpi-common
 Ansible playbook and role to install common needs for Raspbian.
 
-Example Run systax
+Example Run syntax
 
 ```ansible-playbook -i inventory site.yml```
 
